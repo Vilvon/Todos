@@ -1,0 +1,52 @@
+* {
+  outline: none;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ul
+{
+    width: 37em;
+    padding: 0;
+    margin: 0 auto;
+}
+li {
+  display: flex;
+  align-items: center;
+  padding: 0.5em 1em;
+  border: 0.0625em solid #ccc;
+  border-radius: 0.25em;
+  margin-bottom: 0.5em;
+}
+
+.close_button {
+  margin-left: auto;
+  width: 2em;
+  height: 2em;
+  border: none;
+  background-color: #ff0000;
+  border-radius: 50%;
+}
+
+.input-todos {
+  display: flex;
+  width: 50vw;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0 auto 1em auto;
+  padding: 0.7em;
+  border-bottom: solid 0.2em #000000;
+}
+.input-todo {
+  outline: none;
+}
+.completed
+{
+    text-decoration: line-through;
+}
